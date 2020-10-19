@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spec-tyres 2.0</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <div class="overlay">
+            <div class="header-container">
+                <div class="header_row">
+                    <div class="header__title">"Спецшина"<br><span>в Краснодаре</span></div>
+                    <div class="call-wrapper">
+                        <div class="header__phone"><img class="phone_icon" src="images/icons/icon_phone.png" alt="icon"><span class="phone_number">+7 988 646 11 06</span></div>
+                        <button class="header_row__btn">Заказать обратный звонок</button>
+                    </div>
+                </div>
+                <div class="header_content">
+                    <div class="header_text">
+                        <div class="upline"></div>
+                        <div class="text">
+                            Качественные шины<br>
+                            <span class="bottom_text">для погрузчиков и спецтехники</span>
+                        </div>
+                        <div class="catalog_contaner"><a href="#" class="link-catalog">Перейти в каталог</a></div>
+                    </div>
+                </div>
+                <div class="scroll_down">
+                    <img class="scroll_img" src="./images/icons/Group 12.png" alt="scroll">
+                    <span class="scroll__text">Листай вниз</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="callBack_button">
+        <div class="overlay_modal">
+            <div class="modal-window">
+                <form action=""  class="form-wrapper">
+                    <div class="modal_header">
+                        <p class="modal_title">Заказать обратный звонок</p>
+                        <div class="close" id="close">×</div>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="phoneNumber" class="form-label">Ваш телефон</label>
+                        <input  id="phoneNumber" class="form-input" type="text" placeholder="Введите номер телефона" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="name" class="form-label">Ваше имя</label>
+                        <input id="name"  class="form-input" type="text" placeholder="Введите имя" required>
+                    </div>
+
+                    <input class="form-submit" type="submit" value="Заказать звонок">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="libs/modals.js"></script>
+    <script src="libs/script.js"></script>
+</body>
+</html>
